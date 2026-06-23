@@ -30,6 +30,15 @@ jobs:
       run: mvn test
       working-directory: ./mavenproject1
 
+    - name: Publish test results report
+      uses: mikepenz/action-junit-report@v4
+      if: always()
+      with:
+        report_paths: 'mavenproject1/target/surefire-reports/TEST-*.xml'
+        check_name: 'Test Results'
+        include_passed: true
+        detailed_summary: true
+
     - name: Generate HTML test report
       if: always()
       run: mvn surefire-report:report-only site:site -DgenerateReports=false

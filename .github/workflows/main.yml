@@ -30,6 +30,10 @@ jobs:
       run: mvn clean compile
       working-directory: ./mavenproject1
 
+    - name: Verify build
+      run: mvn clean package -DskipTests
+      working-directory: ./mavenproject1
+
     - name: Run Mavenproject1
       run: mvn exec:java@run-app
       working-directory: ./mavenproject1
@@ -38,6 +42,15 @@ jobs:
       run: mvn test
       working-directory: ./mavenproject1
       continue-on-error: true
+
+    - name: Publish test results report
+      uses: mikepenz/action-junit-report@v4
+      if: always()
+      with:
+        report_paths: 'mavenproject1/target/surefire-reports/TEST-*.xml'
+        check_name: 'Test Results'
+        include_passed: true
+        detailed_summary: true
 
     - name: Generate HTML test report
       if: always()
