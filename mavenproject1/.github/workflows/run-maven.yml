@@ -32,3 +32,16 @@ jobs:
     - name: Run Tests
       run: mvn test
       working-directory: ./mavenproject1
+      continue-on-error: true
+
+    - name: Generate HTML test report
+      if: always()
+      run: mvn surefire-report:report-only site:site -DgenerateReports=false
+      working-directory: ./mavenproject1
+
+    - name: Upload HTML test report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: test-report
+        path: mavenproject1/target/site
