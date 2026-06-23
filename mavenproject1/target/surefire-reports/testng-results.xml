@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="75" passed="70" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-23T13:41:45 BRT" name="Surefire suite" finished-at="2026-06-23T13:45:44 BRT" duration-ms="238746">
+    <groups>
+    </groups>
+    <test started-at="2026-06-23T13:41:45 BRT" name="Surefire test" finished-at="2026-06-23T13:45:44 BRT" duration-ms="238746">
+      <class name="com.mycompany.mavenproject1.SeleniumTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:28 BRT" name="setup" finished-at="2026-06-23T13:44:28 BRT" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigateToBaseURL()[pri:1, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:28 BRT" name="testNavigateToBaseURL" finished-at="2026-06-23T13:44:29 BRT" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToBaseURL -->
+        <test-method signature="testGetCurrentURL()[pri:2, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:29 BRT" name="testGetCurrentURL" finished-at="2026-06-23T13:44:30 BRT" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCurrentURL -->
+        <test-method signature="testFindElementByXPath()[pri:3, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:30 BRT" name="testFindElementByXPath" finished-at="2026-06-23T13:44:40 BRT" duration-ms="10325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindElementByXPath -->
+        <test-method signature="testFindElementByCSS()[pri:4, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:40 BRT" name="testFindElementByCSS" finished-at="2026-06-23T13:44:40 BRT" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindElementByCSS -->
+        <test-method signature="testFindElementByID()[pri:5, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:40 BRT" name="testFindElementByID" finished-at="2026-06-23T13:44:41 BRT" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindElementByID -->
+        <test-method signature="testClickElement()[pri:6, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:41 BRT" name="testClickElement" finished-at="2026-06-23T13:44:41 BRT" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickElement -->
+        <test-method signature="testGetElementText()[pri:7, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:41 BRT" name="testGetElementText" finished-at="2026-06-23T13:44:48 BRT" duration-ms="6767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetElementText -->
+        <test-method signature="testGetElementAttribute()[pri:8, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:48 BRT" name="testGetElementAttribute" finished-at="2026-06-23T13:44:55 BRT" duration-ms="6999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetElementAttribute -->
+        <test-method signature="testElementDisplayed()[pri:9, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:55 BRT" name="testElementDisplayed" finished-at="2026-06-23T13:44:56 BRT" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElementDisplayed -->
+        <test-method signature="testElementEnabled()[pri:10, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:56 BRT" name="testElementEnabled" finished-at="2026-06-23T13:44:57 BRT" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElementEnabled -->
+        <test-method signature="testSendKeysToField()[pri:11, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:44:57 BRT" name="testSendKeysToField" finished-at="2026-06-23T13:45:08 BRT" duration-ms="10860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendKeysToField -->
+        <test-method signature="testFindMultipleElements()[pri:12, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:08 BRT" name="testFindMultipleElements" finished-at="2026-06-23T13:45:08 BRT" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindMultipleElements -->
+        <test-method signature="testNavigateBack()[pri:13, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:08 BRT" name="testNavigateBack" finished-at="2026-06-23T13:45:19 BRT" duration-ms="10882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateBack -->
+        <test-method signature="testNavigateForward()[pri:14, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:19 BRT" name="testNavigateForward" finished-at="2026-06-23T13:45:30 BRT" duration-ms="10935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateForward -->
+        <test-method signature="testRefreshPage()[pri:15, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:30 BRT" name="testRefreshPage" finished-at="2026-06-23T13:45:32 BRT" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefreshPage -->
+        <test-method signature="testGetPageSource()[pri:16, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:32 BRT" name="testGetPageSource" finished-at="2026-06-23T13:45:32 BRT" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPageSource -->
+        <test-method signature="testGetPageTitle()[pri:17, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:32 BRT" name="testGetPageTitle" finished-at="2026-06-23T13:45:33 BRT" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPageTitle -->
+        <test-method signature="testGetWindowHandle()[pri:18, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:33 BRT" name="testGetWindowHandle" finished-at="2026-06-23T13:45:34 BRT" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetWindowHandle -->
+        <test-method signature="testGetWindowHandles()[pri:19, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:34 BRT" name="testGetWindowHandles" finished-at="2026-06-23T13:45:35 BRT" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetWindowHandles -->
+        <test-method signature="testMouseHover()[pri:20, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:35 BRT" name="testMouseHover" finished-at="2026-06-23T13:45:36 BRT" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMouseHover -->
+        <test-method signature="testDoubleClick()[pri:21, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:36 BRT" name="testDoubleClick" finished-at="2026-06-23T13:45:37 BRT" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoubleClick -->
+        <test-method signature="testRightClick()[pri:22, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:37 BRT" name="testRightClick" finished-at="2026-06-23T13:45:38 BRT" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRightClick -->
+        <test-method signature="testDragAndDrop()[pri:23, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:38 BRT" name="testDragAndDrop" finished-at="2026-06-23T13:45:39 BRT" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDrop -->
+        <test-method signature="testExplicitWait()[pri:24, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:39 BRT" name="testExplicitWait" finished-at="2026-06-23T13:45:40 BRT" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExplicitWait -->
+        <test-method signature="testImplicitWait()[pri:25, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:40 BRT" name="testImplicitWait" finished-at="2026-06-23T13:45:41 BRT" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImplicitWait -->
+        <test-method signature="testGetBrowserName()[pri:26, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:41 BRT" name="testGetBrowserName" finished-at="2026-06-23T13:45:41 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBrowserName -->
+        <test-method signature="testGetElementSize()[pri:27, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:41 BRT" name="testGetElementSize" finished-at="2026-06-23T13:45:41 BRT" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetElementSize -->
+        <test-method signature="testGetElementLocation()[pri:28, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:41 BRT" name="testGetElementLocation" finished-at="2026-06-23T13:45:42 BRT" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetElementLocation -->
+        <test-method signature="testPageLoadTime()[pri:29, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:42 BRT" name="testPageLoadTime" finished-at="2026-06-23T13:45:43 BRT" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLoadTime -->
+        <test-method signature="testScrollToElement()[pri:30, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:43 BRT" name="testScrollToElement" finished-at="2026-06-23T13:45:44 BRT" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollToElement -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mycompany.mavenproject1.SeleniumTest@45dd4eda]" started-at="2026-06-23T13:45:44 BRT" name="teardown" finished-at="2026-06-23T13:45:44 BRT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mycompany.mavenproject1.SeleniumTest -->
+      <class name="com.mycompany.mavenproject1.RestAssured1Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mycompany.mavenproject1.RestAssured1Test@6ab7a896]" started-at="2026-06-23T13:44:23 BRT" name="setup" finished-at="2026-06-23T13:44:23 BRT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="delete_returnsExpectedResponse()[pri:0, instance:com.mycompany.mavenproject1.RestAssured1Test@6ab7a896]" started-at="2026-06-23T13:44:23 BRT" name="delete_returnsExpectedResponse" finished-at="2026-06-23T13:44:26 BRT" duration-ms="2420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_returnsExpectedResponse -->
+        <test-method signature="getUser1_returnsExpectedResponse()[pri:0, instance:com.mycompany.mavenproject1.RestAssured1Test@6ab7a896]" started-at="2026-06-23T13:44:26 BRT" name="getUser1_returnsExpectedResponse" finished-at="2026-06-23T13:44:27 BRT" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser1_returnsExpectedResponse -->
+        <test-method signature="getUsers_returnsExpectedResponse()[pri:0, instance:com.mycompany.mavenproject1.RestAssured1Test@6ab7a896]" started-at="2026-06-23T13:44:27 BRT" name="getUsers_returnsExpectedResponse" finished-at="2026-06-23T13:44:27 BRT" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers_returnsExpectedResponse -->
+        <test-method signature="post1_returnsExpectedResponse()[pri:0, instance:com.mycompany.mavenproject1.RestAssured1Test@6ab7a896]" started-at="2026-06-23T13:44:27 BRT" name="post1_returnsExpectedResponse" finished-at="2026-06-23T13:44:27 BRT" duration-ms="236" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <201> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at com.mycompany.mavenproject1.RestAssured1Test.post1_returnsExpectedResponse(RestAssured1Test.java:93)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1_returnsExpectedResponse -->
+        <test-method signature="putUser1_returnsExpectedResponse()[pri:0, instance:com.mycompany.mavenproject1.RestAssured1Test@6ab7a896]" started-at="2026-06-23T13:44:27 BRT" name="putUser1_returnsExpectedResponse" finished-at="2026-06-23T13:44:27 BRT" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUser1_returnsExpectedResponse -->
+      </class> <!-- com.mycompany.mavenproject1.RestAssured1Test -->
+      <class name="com.mycompany.mavenproject1.HLTVTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:41:45 BRT" name="setup" finished-at="2026-06-23T13:41:47 BRT" duration-ms="1201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigateToBaseURL()[pri:1, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:41:47 BRT" name="testNavigateToBaseURL" finished-at="2026-06-23T13:41:48 BRT" duration-ms="1645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToBaseURL -->
+        <test-method signature="testGetCurrentURL()[pri:2, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:41:48 BRT" name="testGetCurrentURL" finished-at="2026-06-23T13:41:53 BRT" duration-ms="4633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCurrentURL -->
+        <test-method signature="testPageSourceNotEmpty()[pri:3, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:41:53 BRT" name="testPageSourceNotEmpty" finished-at="2026-06-23T13:41:53 BRT" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageSourceNotEmpty -->
+        <test-method signature="testPageLoadTime()[pri:4, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:41:53 BRT" name="testPageLoadTime" finished-at="2026-06-23T13:41:53 BRT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLoadTime -->
+        <test-method signature="testNavigationHeaderExists()[pri:5, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:41:53 BRT" name="testNavigationHeaderExists" finished-at="2026-06-23T13:42:03 BRT" duration-ms="10209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationHeaderExists -->
+        <test-method signature="testSearchFunctionalityExists()[pri:6, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:42:03 BRT" name="testSearchFunctionalityExists" finished-at="2026-06-23T13:42:14 BRT" duration-ms="10161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionalityExists -->
+        <test-method signature="testSearchForTeam()[pri:7, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:42:14 BRT" name="testSearchForTeam" finished-at="2026-06-23T13:42:24 BRT" duration-ms="10471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchForTeam -->
+        <test-method signature="testSearchForMatch()[pri:8, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:42:24 BRT" name="testSearchForMatch" finished-at="2026-06-23T13:42:34 BRT" duration-ms="10159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchForMatch -->
+        <test-method signature="testClickOnMatchesTab()[pri:9, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:42:34 BRT" name="testClickOnMatchesTab" finished-at="2026-06-23T13:42:44 BRT" duration-ms="10198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnMatchesTab -->
+        <test-method signature="testClickOnTeamsTab()[pri:10, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:42:44 BRT" name="testClickOnTeamsTab" finished-at="2026-06-23T13:42:55 BRT" duration-ms="10189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnTeamsTab -->
+        <test-method signature="testClickOnPlayersTab()[pri:11, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:42:55 BRT" name="testClickOnPlayersTab" finished-at="2026-06-23T13:43:05 BRT" duration-ms="10218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnPlayersTab -->
+        <test-method signature="testNavigateToNews()[pri:12, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:43:05 BRT" name="testNavigateToNews" finished-at="2026-06-23T13:43:15 BRT" duration-ms="10195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToNews -->
+        <test-method signature="testClickOnNewsArticle()[pri:13, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:43:15 BRT" name="testClickOnNewsArticle" finished-at="2026-06-23T13:43:25 BRT" duration-ms="10170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnNewsArticle -->
+        <test-method signature="testNavigateToRankings()[pri:14, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:43:25 BRT" name="testNavigateToRankings" finished-at="2026-06-23T13:43:35 BRT" duration-ms="10168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToRankings -->
+        <test-method signature="testFindElements()[pri:15, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:43:35 BRT" name="testFindElements" finished-at="2026-06-23T13:43:36 BRT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindElements -->
+        <test-method signature="testNavigationMenuVisible()[pri:16, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:43:36 BRT" name="testNavigationMenuVisible" finished-at="2026-06-23T13:43:46 BRT" duration-ms="10256" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Navigation menu items should exist expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Navigation menu items should exist expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.mycompany.mavenproject1.HLTVTest.testNavigationMenuVisible(HLTVTest.java:261)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationMenuVisible -->
+        <test-method signature="testClickOnUpcomingMatches()[pri:17, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:43:46 BRT" name="testClickOnUpcomingMatches" finished-at="2026-06-23T13:43:56 BRT" duration-ms="10177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnUpcomingMatches -->
+        <test-method signature="testClickOnResults()[pri:18, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:43:56 BRT" name="testClickOnResults" finished-at="2026-06-23T13:44:06 BRT" duration-ms="10201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnResults -->
+        <test-method signature="testApplyFilters()[pri:19, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:44:06 BRT" name="testApplyFilters" finished-at="2026-06-23T13:44:18 BRT" duration-ms="12176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplyFilters -->
+        <test-method signature="testElementDisplayProperties()[pri:20, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:44:18 BRT" name="testElementDisplayProperties" finished-at="2026-06-23T13:44:19 BRT" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElementDisplayProperties -->
+        <test-method signature="testMouseHoverOnMatch()[pri:21, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:44:19 BRT" name="testMouseHoverOnMatch" finished-at="2026-06-23T13:44:23 BRT" duration-ms="4403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMouseHoverOnMatch -->
+        <test-method signature="testRefreshPage()[pri:22, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:44:23 BRT" name="testRefreshPage" finished-at="2026-06-23T13:44:23 BRT" duration-ms="127" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff43a098d43dbf333651a7ccd914469a, get {url=https://www.hltv.org}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.156, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54880}, goog:processID: 40140, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54880/devtoo..., se:cdpVersion: 149.0.7827.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff43a098d43dbf333651a7ccd914469a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff43a098d43dbf333651a7ccd914469a, get {url=https://www.hltv.org}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.156, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54880}, goog:processID: 40140, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54880/devtoo..., se:cdpVersion: 149.0.7827.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff43a098d43dbf333651a7ccd914469a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1072)
+at com.mycompany.mavenproject1.HLTVTest.testRefreshPage(HLTVTest.java:342)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefreshPage -->
+        <test-method signature="testNavigateBack()[pri:23, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:44:23 BRT" name="testNavigateBack" finished-at="2026-06-23T13:44:23 BRT" duration-ms="2" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff43a098d43dbf333651a7ccd914469a, get {url=https://www.hltv.org}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.156, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54880}, goog:processID: 40140, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54880/devtoo..., se:cdpVersion: 149.0.7827.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff43a098d43dbf333651a7ccd914469a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff43a098d43dbf333651a7ccd914469a, get {url=https://www.hltv.org}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.156, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54880}, goog:processID: 40140, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54880/devtoo..., se:cdpVersion: 149.0.7827.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff43a098d43dbf333651a7ccd914469a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1072)
+at com.mycompany.mavenproject1.HLTVTest.testNavigateBack(HLTVTest.java:354)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateBack -->
+        <test-method signature="testGetWindowHandle()[pri:24, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:44:23 BRT" name="testGetWindowHandle" finished-at="2026-06-23T13:44:23 BRT" duration-ms="2" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff43a098d43dbf333651a7ccd914469a, get {url=https://www.hltv.org}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.156, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54880}, goog:processID: 40140, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54880/devtoo..., se:cdpVersion: 149.0.7827.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff43a098d43dbf333651a7ccd914469a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff43a098d43dbf333651a7ccd914469a, get {url=https://www.hltv.org}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.156, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54880}, goog:processID: 40140, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54880/devtoo..., se:cdpVersion: 149.0.7827.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff43a098d43dbf333651a7ccd914469a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1072)
+at com.mycompany.mavenproject1.HLTVTest.testGetWindowHandle(HLTVTest.java:372)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetWindowHandle -->
+        <test-method signature="testBrowserCapabilities()[pri:25, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:44:23 BRT" name="testBrowserCapabilities" finished-at="2026-06-23T13:44:23 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowserCapabilities -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mycompany.mavenproject1.HLTVTest@37e547da]" started-at="2026-06-23T13:44:23 BRT" name="teardown" finished-at="2026-06-23T13:44:23 BRT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mycompany.mavenproject1.HLTVTest -->
+      <class name="com.mycompany.mavenproject1.RestAssuredTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mycompany.mavenproject1.RestAssuredTest@327b636c]" started-at="2026-06-23T13:44:27 BRT" name="setup" finished-at="2026-06-23T13:44:27 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createPost_returns201AndEchoesTitle()[pri:0, instance:com.mycompany.mavenproject1.RestAssuredTest@327b636c]" started-at="2026-06-23T13:44:27 BRT" name="createPost_returns201AndEchoesTitle" finished-at="2026-06-23T13:44:28 BRT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPost_returns201AndEchoesTitle -->
+        <test-method signature="getUserById_returnsCorrectUser()[pri:0, instance:com.mycompany.mavenproject1.RestAssuredTest@327b636c]" started-at="2026-06-23T13:44:28 BRT" name="getUserById_returnsCorrectUser" finished-at="2026-06-23T13:44:28 BRT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserById_returnsCorrectUser -->
+        <test-method signature="getUsers_returns200AndNonEmptyList()[pri:0, instance:com.mycompany.mavenproject1.RestAssuredTest@327b636c]" started-at="2026-06-23T13:44:28 BRT" name="getUsers_returns200AndNonEmptyList" finished-at="2026-06-23T13:44:28 BRT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers_returns200AndNonEmptyList -->
+      </class> <!-- com.mycompany.mavenproject1.RestAssuredTest -->
+      <class name="com.mycompany.mavenproject1.Mavenproject1Test">
+        <test-method signature="testBubbleSortEmptyArray()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortEmptyArray" finished-at="2026-06-23T13:44:23 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortEmptyArray -->
+        <test-method signature="testBubbleSortPreservesLength()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortPreservesLength" finished-at="2026-06-23T13:44:23 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortPreservesLength -->
+        <test-method signature="testBubbleSortWithLargeNumbers()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortWithLargeNumbers" finished-at="2026-06-23T13:44:23 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortWithLargeNumbers -->
+        <test-method signature="testBubbleSortWithDuplicates()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortWithDuplicates" finished-at="2026-06-23T13:44:23 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortWithDuplicates -->
+        <test-method signature="testBubbleSortWithAlreadySortedArray()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortWithAlreadySortedArray" finished-at="2026-06-23T13:44:23 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortWithAlreadySortedArray -->
+        <test-method signature="testBubbleSortWithMixedNumbers()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortWithMixedNumbers" finished-at="2026-06-23T13:44:23 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortWithMixedNumbers -->
+        <test-method signature="testBubbleSortTwoElements()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortTwoElements" finished-at="2026-06-23T13:44:23 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortTwoElements -->
+        <test-method signature="testBubbleSortWithPositiveNumbers()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortWithPositiveNumbers" finished-at="2026-06-23T13:44:23 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortWithPositiveNumbers -->
+        <test-method signature="testBubbleSortWithZeros()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortWithZeros" finished-at="2026-06-23T13:44:23 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortWithZeros -->
+        <test-method signature="testBubbleSortWithNegativeNumbers()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortWithNegativeNumbers" finished-at="2026-06-23T13:44:23 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortWithNegativeNumbers -->
+        <test-method signature="testBubbleSortWithReverseSortedArray()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortWithReverseSortedArray" finished-at="2026-06-23T13:44:23 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortWithReverseSortedArray -->
+        <test-method signature="testBubbleSortWithSingleElement()[pri:0, instance:com.mycompany.mavenproject1.Mavenproject1Test@15761df8]" started-at="2026-06-23T13:44:23 BRT" name="testBubbleSortWithSingleElement" finished-at="2026-06-23T13:44:23 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBubbleSortWithSingleElement -->
+      </class> <!-- com.mycompany.mavenproject1.Mavenproject1Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
